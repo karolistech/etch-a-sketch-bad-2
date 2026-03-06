@@ -11,7 +11,7 @@ const clearGridBtn = document.querySelector<HTMLButtonElement>(".controls__btn--
 type Mode = "draw" | "random" | "erase";
 
 const state = {
-  mode: "draw" as Mode,
+  mode: "draw" as Mod,
   penColor: penColorInput.value,
   bgColor: bgColorInput.value,
   gridSize: 16,
